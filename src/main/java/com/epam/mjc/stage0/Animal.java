@@ -13,7 +13,7 @@ public class Animal {
 
     public String getDescription(){
         String s = "This animal is mostly " + this.color + ". " +
-                    "It has" + this.numberOfPaws + (this.numberOfPaws > 1 ? " paws" : " paw") +
+                    "It has " + this.numberOfPaws + (this.numberOfPaws > 1 ? " paws" : " paw") +
                     " and " + (this.hasFur ? "a" : "no") + " fur.";
         return s;
     }
